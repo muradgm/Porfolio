@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<input type="checkbox" name="toggle" id="toggle" class="toggle-menu" />
+			<label for="toggle" class="toggle-btn">
+				<div class="lines">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</div>
+				<span class="toggle-text">
+					<span>M</span>
+					<span>E</span>
+					<span>N</span>
+					<span>U</span>
+				</span>
+			</label>
+			<header id="header">
+				<nav class="navbar">
+					<ul class="navbar-menu">
+						<li class="menu__item">
+							<a href="#about">
+								<h4>About</h4>
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#skills">
+								<h4>Skills</h4>
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#projects">
+								<h4>Projects</h4>
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#footer">
+								<h4>Contact</h4>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="social-links">
+					<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+					<a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+					<a href="#" class="github"><i class="fab fa-github"></i></a>
+				</div>
+				<div id="logo">
+					<img src="./images/logo-black.png" alt="" class="logo" />
+				</div>
+			</header>
+
+			<main id="main">
+				<div class="landing-page">
+					<section id="landing">
+						<span class="logo__fff" id="logo__fff">
+							<img src="./images/logo-white.png" alt="" />
+						</span>
+						<div class="landing-text">
+							<h1 class="text__hello">Hello,</h1>
+							<h1 class="text__name">I am murad.</h1>
+						</div>
+					</section>
+				</div>
+				<section id="about">
+					<div class="section-title">
+						<h2>about<span style="color: #de4320">.</span></h2>
+					</div>
+					<div class="about-biography">
+						<div class="biography__image">
+							<img
+								src="./images/Screenshot_20200302_202216.jpg"
+								alt=""
+								class="profile-image"
+							/>
+						</div>
+						<div class="biography__text">
+							<div class="text--title">
+								<h3>Murad Muqbel</h3>
+							</div>
+							<div class="text--subtitle">
+								<ul class="subtitle-dynamic">
+									<li>
+										<span>
+											<h4>Coffee Junckie</h4>
+										</span>
+									</li>
+									<li>
+										<span>
+											<h4>Web Developer</h4>
+										</span>
+									</li>
+									<li>
+										<span>
+											<h4>UI/UX Designer</h4>
+										</span>
+									</li>
+									<li>
+										<span>
+											<h4>Daydreamer</h4>
+										</span>
+									</li>
+								</ul>
+							</div>
+							<br />
+							<div class="text--body">
+								<p>
+									<strong>Hello,</strong>
+								</p>
+								<p>
+									I am originally from Jordan, currently based in Berlin
+									Germany. I enjoy creating things that live on the internet. My
+									interest in web development started last year when i had the
+									opportunity to see the wonders one can make with
+									<strong>HTML</strong>, <strong>CSS</strong>, and
+									<strong>JS</strong>. it was fascinating to see that with a few
+									lines of code you can turn ideas into interactive, responsive,
+									and colorful websites.
+								</p>
+								<p>
+									Even though I am still taking my first steps, I am becoming
+									codaholic and always hungry to learn more.
+								</p>
+								<br />
+								<p>
+									When I'm not coding, you can find me trying new food recipes,
+									or spending my time with my family.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="skills">
+					<div class="skills__title section-title">
+						<h2 id="skills">sk<span class="special">i</span>lls</h2>
+					</div>
+					<div class="skill__cards">
+						<div class="skill">
+							<div class="icon html"><i class="fab fa-html5"></i></div>
+							<div class="skill-name">
+								<h5>HTML</h5>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="icon css"><i class="fab fa-css3"></i></div>
+							<div class="skill-name">
+								<h5>CSS</h5>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="icon bootstrap">
+								<i class="fab fa-bootstrap"></i>
+								<div class="skill-name">
+									<h5>BOOTSTRAP</h5>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="icon sass">
+								<i class="fab fa-sass"></i>
+								<div class="skill-name">
+									<h5>SASS</h5>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="icon git">
+								<i class="fab fa-git"></i>
+								<div class="skill-name">
+									<h5>GIT</h5>
+								</div>
+							</div>
+						</div>
+						<div class="skill">
+							<div class="icon github">
+								<i class="fab fa-github"></i>
+								<div class="skill-name">
+									<h5>GITHUB</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="projects">
+					<div class="section-title">
+						<h2>pro<span class="special">j</span>ects</h2>
+					</div>
+					<div class="projects-container">
+						<!-- FIRST PROJECT -->
+						<div class="project-wrapper">
+							<div class="project-content">
+								<div class="project-image"></div>
+								<div class="project-text">
+									<h4 class="title">James bond world</h4>
+									<p class="desc">007 Blog</p>
+								</div>
+								<a
+									href="https://muradgm.github.io/007-Blog-Project/index.html"
+									target="_blank"
+									class="btn"
+									>learn more</a
+								>
+							</div>
+						</div>
+
+						<!-- SECOND PROJECT -->
+						<div class="project-wrapper">
+							<div class="project-content">
+								<div>
+									<div class="project-image"></div>
+									<div class="project-text">
+										<h4 class="title">Barney's</h4>
+										<p class="desc">Burger Joint</p>
+									</div>
+									<a href="" target="_blank" class="btn">learn more</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- THIRD PROJECT -->
+						<div class="project-wrapper">
+							<div class="project-content">
+								<div>
+									<div class="project-image"></div>
+									<div class="project-text">
+										<h4 class="title">Movie Tube</h4>
+										<p class="desc">Online Movies Library</p>
+									</div>
+									<a
+										href="https://muradgm.github.io/flex_full-page_layout/"
+										target="_blank"
+										class="btn"
+										>learn more</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- FOURTH PROJECT -->
+						<div class="project-wrapper">
+							<div class="project-content">
+								<div>
+									<div class="project-image"></div>
+									<div class="project-text">
+										<h4 class="title">Fylo</h4>
+										<p class="desc">Data storage component</p>
+									</div>
+									<a
+										href="https://muradgm.github.io/fylo-data-storage-component/"
+										target="_blank"
+										class="btn"
+										>learn more</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- FIFTH PROJECT -->
+						<div class="project-wrapper">
+							<div class="project-content">
+								<div>
+									<div class="project-image"></div>
+									<div class="project-text">
+										<h4 class="title">Huddle</h4>
+										<p class="desc">Landing Page</p>
+									</div>
+									<a
+										href="https://muradgm.github.io/Huddle-landing-page/"
+										target="_blank"
+										class="btn"
+										>learn more</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- SIXTH PROJECT -->
+						<div class="project-wrapper">
+							<div class="project-content">
+								<div>
+									<div class="project-image"></div>
+									<div class="project-text">
+										<h4 class="title">Login Page</h4>
+										<p class="desc">lorem</p>
+									</div>
+									<a
+										href="https://muradgm.github.io/login-page/"
+										target="_blank"
+										class="btn"
+										>learn more</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- SEVENTH PROJECT -->
+						<div class="project-wrapper">
+							<div class="project-content">
+								<div>
+									<div class="project-image"></div>
+									<div class="project-text">
+										<h4 class="title">Martin Luther King</h4>
+										<p class="desc">Tribute Page</p>
+									</div>
+									<a
+										href="https://muradgm.github.io/wiki_page-martin_luther_king/"
+										target="_blank"
+										class="btn"
+										>learn more</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- EIGHTH PROJECT -->
+						<div class="project-wrapper">
+							<div class="project-content">
+								<div>
+									<div class="project-image"></div>
+									<div class="project-text">
+										<h4 class="title">Monogram</h4>
+										<p class="desc">lorem</p>
+									</div>
+									<a
+										href="https://muradgm.github.io/monogramcc/"
+										target="_blank"
+										class="btn"
+										>learn more</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- NINETH PROJECT -->
+						<div class="project-wrapper">
+							<div class="project-content">
+								<div>
+									<div class="project-image"></div>
+									<div class="project-text">
+										<h4 class="title">William Gibson</h4>
+										<p class="desc">Tribute Page</p>
+									</div>
+									<a
+										href="https://muradgm.github.io/tribute_page-willian_gibson/"
+										target="_blank"
+										class="btn"
+										>learn more</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- CONTACT SECTION -->
+				<section id="contact">
+					<div class="section-title">
+						<h2 id="contacts">contact.</h2>
+					</div>
+					<div class="contact">
+						<div class="contact-header">
+							<h5>Do you have a question or want to work together?</h5>
+						</div>
+						<div class="contact-form">
+							<form class="form" id="contact-form">
+								<input placeholder="Name" type="text" name="name" required="" />
+								<input
+									placeholder="Enter email"
+									type="email"
+									name="email"
+									required=""
+								/>
+								<textarea
+									placeholder="Your Message"
+									type="text"
+									name="message"
+								></textarea>
+								<input
+									class="submit-btn btn"
+									type="submit"
+									id="submit"
+									value="SUBMIT"
+								/>
+							</form>
+						</div>
+					</div>
+					<!-- SCROLL TO TOP  -->
+					<!--  -->
+					<div class="to-top">
+						<span class="arrow">
+							<img src="./images/up-arrow-svgrepo-com.svg" alt="" />
+						</span>
+						<span class="txt"><a href="#logo__fff">BACKTOTOP</a></span>
+					</div>
+					<!--  -->
+				</section>
+			</main>
+		</div>
+		<!-- FOOTER SECTION -->
+		<footer id="footer">
+			<div class="copyright">
+				<div class="copyright-text">
+					<p>
+						Crafted with <i class="fas fa-heart"></i> by
+						<a class="at" href="mailto:muradgm@gmail.com"> muradgm@gmail.com</a>
+					</p>
+					<!-- <p >© 2021  All Rights Reserved. </p> -->
+				</div>
+			</div>
+		</footer>
+		<script src="./script.js"></script>
+	</body>
+</html>
